@@ -2,6 +2,12 @@
 
 `React + Vite` のフロントエンドから、`Spring Boot` の判定APIを呼び出すプロトタイプです。
 
+# スクリーンショット
+<img width="1057" height="777" alt="image" src="https://github.com/user-attachments/assets/30e3739f-9f12-4ae8-8311-56ee2ba287e9" />
+
+# バージョン
+0.5 2026/4/28 自習課題として新規作成
+
 ## 構成
 
 - `frontend`: 牌選択UI（GIF）、ドラ表示牌選択（ポップアップ）、判定ボタン、役/翻/符/点の表示
