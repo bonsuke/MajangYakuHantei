@@ -1,0 +1,61 @@
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Cursor (optional)
+.cursor/
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Secrets / env ----
+.env
+.env.*
+!.env.example
+
+# ---- Java / Maven / Spring Boot ----
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/.classpath
+backend/.project
+backend/.settings/
+
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# ---- Node / Vite / React ----
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ---- Coverage / Test ----
+coverage/
+.nyc_output/
+
+# ---- Local tooling / misc ----
+*.swp
+*.swo
+*.tmp
